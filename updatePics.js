@@ -20,7 +20,7 @@ function changePic() {
     let icons = ["shirt-2","battery"]
 
     let val =  "<br/>"  +   document.getElementById("myTextarea").value  ;
-    // let record = document.getElementById("Record").innerHTML + val;
+    let record = document.getElementById("Record").innerHTML + val;
     
     for (let j = 1; j < 7; j++) {
         let i = Math.floor((Math.random() * 34));
@@ -29,7 +29,7 @@ function changePic() {
         document.getElementById("img" + j).src = imgUp;
         // document.getElementById("img" + j).src = "https://www.iconsdb.com/icons/preview/" + colours[1] + "/" + icons[1] + "-xxl.png";
     }               
-    document.getElementById("inputBox").value = "";
+    document.getElementById("myTextarea").value = "";
     document.getElementById("Record").innerHTML = record;
     // document.getElementById("demo").innerHTML = imgUp;
   }
