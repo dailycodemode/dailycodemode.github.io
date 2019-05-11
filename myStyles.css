@@ -2,10 +2,38 @@ body {
     background-color: rgb(251, 244, 200);
   }x
 
-table{
-    width: 200px;
-  }
 img{
-    widows: 200px;
-    max-width: 200px;
+
+    height: 20%;
+    width: 20%;
+}
+
+.center { 
+  justify-content: center; 
+} 
+
+.flex-item {
+  /* height: 10%;
+  width: 10%; */
+  background: tomato;
+  padding: 5px;
+  width: 60px;
+  height: 50px;
+  margin: 5px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
