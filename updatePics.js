@@ -19,8 +19,8 @@ function changePic() {
     let colours = ["black", "orange", "maroon", "bisque", "purple", "green", "brown", "gra" ];
     let icons = ["shirt-2","battery"]
 
-    let val =  "<br/>"  +   document.getElementById("inputBox").value  ;
-    let record = document.getElementById("Record").innerHTML + val;
+    let val =  "<br/>"  +   document.getElementById("myTextarea").value  ;
+    // let record = document.getElementById("Record").innerHTML + val;
     
     for (let j = 1; j < 7; j++) {
         let i = Math.floor((Math.random() * 34));
