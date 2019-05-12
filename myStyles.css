@@ -15,7 +15,7 @@ img{
 .flex-item {
   /* height: 10%;
   width: 10%; */
-  background: tomato;
+  background: rgb(251, 244, 200);
   padding: 5px;
   width: 60px;
   height: 50px;
@@ -27,11 +27,15 @@ img{
   text-align: center;
 }
 
+textarea{
+  height: 30%;
+  width: 30%;
+}
 .button {
   background-color: #555555;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
